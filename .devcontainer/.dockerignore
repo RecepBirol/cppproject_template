@@ -1,0 +1,12 @@
+# Build directories and binaries
+build/
+out/
+cmake-build-*/
+conan-cache/
+
+# Vscode files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
