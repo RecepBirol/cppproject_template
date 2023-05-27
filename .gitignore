@@ -5,7 +5,7 @@ cmake-build-*/
 conan-cache/
 
 # Vscode files
-.vscode/
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
