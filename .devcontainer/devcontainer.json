@@ -11,18 +11,18 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"editor.formatOnSave": true
+				"editor.formatOnSave": true,
+				"C_Cpp.default.cppStandard": "c++20",
+				"C_Cpp.default.cStandard": "c11",
+				"C_Cpp.formatting": "clangFormat",
+				"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 			},
 			"extensions": [
-				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-extension-pack",
 				// Bash Beautify
 				"shakram02.bash-beautify",
 				// C++ Algorithm Mnemonics
 				"davidbroetje.algorithm-mnemonics-vscode",
-				// CMake Language Support
-				"twxs.cmake",
-				// CMake Tools
-				"ms-vscode.cmake-tools",
 				// Python extension
 				"ms-python.python",
 				// GitLens
@@ -49,14 +49,10 @@
 				"gruntfuggly.todo-tree",
 				// VS IntelliCode
 				"visualstudioexptteam.vscodeintellicode",
-				// vscode-spotify
-				"shyykoserhiy.vscode-spotify",
 				// Test Explorer UI
 				"hbenl.vscode-test-explorer",
 				// Word Count
 				"ms-vscode.wordcount",
-				// vscode-clangd
-				"llvm-vs-code-extensions.vscode-clangd",
 				// Resource monitor
 				"mutantdino.resourcemonitor",
 				// CMake Test Adapter for Test Explorer Sidebar
