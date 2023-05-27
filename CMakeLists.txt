@@ -15,3 +15,11 @@ myproject_setup_dependencies()
 
 # source directory
 add_subdirectory(src)
+
+# tests
+include(CTest)
+
+if(BUILD_TESTING)
+    message(AUTHOR_WARNING "Building tests...")
+    add_subdirectory(test)
+endif()
